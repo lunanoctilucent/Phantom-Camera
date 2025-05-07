@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b57brb2qujhpv"]
+[gd_scene load_steps=17 format=3 uid="uid://b57brb2qujhpv"]
 
 [ext_resource type="PackedScene" uid="uid://blnr33eccdh0a" path="res://scenes/platform.tscn" id="1_3vhrh"]
 [ext_resource type="PackedScene" uid="uid://b3vq3rglxjwth" path="res://scenes/player.tscn" id="2_g5y8n"]
@@ -48,6 +48,15 @@ duration = 1.0
 transition = 0
 ease = 2
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qfnet"]
+size = Vector2(125, 150)
+
+[sub_resource type="Resource" id="Resource_w7kh3"]
+script = ExtResource("4_71j4m")
+duration = 1.0
+transition = 10
+ease = 2
+
 [node name="world" type="Node2D"]
 
 [node name="platform" parent="." instance=ExtResource("1_3vhrh")]
@@ -55,7 +64,7 @@ ease = 2
 [node name="player" parent="." instance=ExtResource("2_g5y8n")]
 position = Vector2(108, 430)
 
-[node name="CameraManager" type="Node2D" parent="." node_paths=PackedStringArray("player", "Camera_Zone0", "Camera_Zone1", "Camera_Zone2", "Camera_Zone3", "Camera_Zone4")]
+[node name="CameraManager" type="Node2D" parent="." node_paths=PackedStringArray("player", "Camera_Zone0", "Camera_Zone1", "Camera_Zone2", "Camera_Zone3", "Camera_Zone4", "Interaction_Area_1", "Interaction_Camera_1")]
 script = ExtResource("3_4wyf3")
 player = NodePath("../player")
 Camera_Zone0 = NodePath("CameraNodes/zone 0-1/PhantomCamera2D")
@@ -63,6 +72,8 @@ Camera_Zone1 = NodePath("CameraNodes/zone 1-2/PhantomCamera2D")
 Camera_Zone2 = NodePath("CameraNodes/zone 2-3/PhantomCamera2D")
 Camera_Zone3 = NodePath("CameraNodes/zone 3-4/PhantomCamera2D")
 Camera_Zone4 = NodePath("CameraNodes/zone 4/PhantomCamera2D")
+Interaction_Area_1 = NodePath("CameraNodes/interaction_area_1")
+Interaction_Camera_1 = NodePath("CameraNodes/interaction_area_1/PhantomCamera2D")
 
 [node name="CameraNodes" type="StaticBody2D" parent="CameraManager"]
 
@@ -132,6 +143,19 @@ follow_damping = true
 follow_damping_value = Vector2(0.2, 0.2)
 limit_left = 1650
 limit_bottom = 1115
+metadata/_custom_type_script = "uid://bhexx6mj1xv3q"
+
+[node name="interaction_area_1" type="Area2D" parent="CameraManager/CameraNodes"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CameraManager/CameraNodes/interaction_area_1"]
+position = Vector2(1063, 484)
+shape = SubResource("RectangleShape2D_qfnet")
+
+[node name="PhantomCamera2D" type="Node2D" parent="CameraManager/CameraNodes/interaction_area_1"]
+position = Vector2(1097, 477)
+script = ExtResource("3_k0juu")
+zoom = Vector2(3, 3)
+tween_resource = SubResource("Resource_w7kh3")
 metadata/_custom_type_script = "uid://bhexx6mj1xv3q"
 
 [node name="Marker2D" type="Marker2D" parent="."]
