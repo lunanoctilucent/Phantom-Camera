@@ -1,0 +1,261 @@
+[gd_scene load_steps=2 format=3 uid="uid://blnr33eccdh0a"]
+
+[ext_resource type="Texture2D" uid="uid://rfbynr1kivff" path="res://icon.svg" id="1_aaac4"]
+
+[node name="platform" type="Node2D"]
+
+[node name="icons" type="StaticBody2D" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(103, 641.5)
+scale = Vector2(2.48438, 1.47656)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon2" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(523.5, 689)
+scale = Vector2(4.80469, 0.703125)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon3" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(983, 642.75)
+scale = Vector2(3.17969, 1.53516)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon4" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1205, 855.5)
+scale = Vector2(1, 4.86719)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon5" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1512.56, 616.193)
+rotation = -0.0719868
+scale = Vector2(1, 3.89227)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon6" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1392, 332)
+rotation = 0.24748
+scale = Vector2(2.42188, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon7" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-28.0185, 337.916)
+rotation = -1.46572
+scale = Vector2(3.87916, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon8" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(135, 191)
+rotation = 0.384206
+scale = Vector2(3.21094, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon9" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(384, 237)
+rotation = -0.218161
+scale = Vector2(1.77344, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon10" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(647, 256)
+rotation = 0.185601
+scale = Vector2(3.23887, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon11" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(931, 293)
+rotation = 0.0223217
+scale = Vector2(1.95527, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon12" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1146, 296)
+rotation = 0.02742
+scale = Vector2(2, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon13" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1657, 1111)
+scale = Vector2(6.71875, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon14" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1807.75, 809)
+scale = Vector2(4.72265, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon15" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(941.25, 59.5)
+scale = Vector2(18.2617, 2.24219)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon16" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1403.75, 179)
+scale = Vector2(11.0508, 1.46094)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon17" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1813, 447.25)
+scale = Vector2(4.64844, 6.30859)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon18" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1485, 281)
+scale = Vector2(2.03906, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon19" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(348, 936.5)
+scale = Vector2(13.9063, 3.77344)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon20" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-277, 535)
+scale = Vector2(4.24219, 9.67188)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon21" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(784, 1438)
+scale = Vector2(20.5313, 5.125)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon22" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-473, 1152)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon23" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2984, 1120)
+scale = Vector2(15.8281, 1.15625)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon24" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1738, -237)
+scale = Vector2(35.75, 4.01563)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon25" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2205.77, 764.595)
+rotation = -0.371156
+scale = Vector2(2.3996, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon26" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2446, 593)
+rotation = -0.780172
+scale = Vector2(2.98438, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon27" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2573, 291)
+rotation = 0.0529974
+scale = Vector2(1, 3.28125)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon28" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2835.5, 84)
+rotation = -0.113886
+scale = Vector2(4.75781, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon29" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(3338.32, 63.1091)
+rotation = 0.0631105
+scale = Vector2(3.9465, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon30" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(3758, 17.0002)
+rotation = -0.306503
+scale = Vector2(3.6639, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon31" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(3959, 540)
+scale = Vector2(1, 9.75)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon32" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2457, 0.250005)
+scale = Vector2(7.34473, 1.99609)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon33" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2301, 225)
+scale = Vector2(4.79688, 3.79688)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon34" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2283, 483)
+scale = Vector2(3.8125, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon35" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2206.5, 574)
+scale = Vector2(4.02344, 1)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon36" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2191, 653.5)
+scale = Vector2(2.25, 1.72656)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon37" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(4849, 576)
+scale = Vector2(14.2969, 16.9219)
+texture = ExtResource("1_aaac4")
+
+[node name="Icon38" type="Sprite2D" parent="icons"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(3877.75, 1478)
+scale = Vector2(29.4727, 6.00781)
+texture = ExtResource("1_aaac4")
+
+[node name="npc_statue" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="npc_statue"]
+modulate = Color(1, 0, 1, 1)
+position = Vector2(1148, 514)
+scale = Vector2(0.273356, 0.552328)
+texture = ExtResource("1_aaac4")
+
+[node name="collision" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="collision"]
+polygon = PackedVector2Array(49, 225, 287, 324, 310, 322, 463, 283, 821, 359, 1240, 356, 1434, 408, 1456, 651, 1478, 867, 2100, 870, 2362, 779, 2624, 498, 2639, 171, 3134, 101, 3582, 143, 3909, 28, 3905, 1057, 1261, 1061, 1264, 771, 1267, 596, 1255, 547, 988, 549, 804, 549, 782, 556, 784, 644, 589, 645, 256, 642, 257, 554, 5, 554, 26, 410, 38, 193, -295, 369, 180, 701, 741, 754, 1017, 750, 1035.39, 1172.29, 4081, 1253, 4140, -137, 361, -19, 2, 163, 54, 191)
